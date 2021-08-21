@@ -1,0 +1,114 @@
+body{
+    background: linear-gradient(117.06deg, #4EC8FC 2.2%, rgba(144, 78, 252, 0.67) 88.15%);
+    
+}
+.container{
+    background-color: white;
+    display: flex;
+    width: 70%;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 17%;
+    position: flex;
+
+}
+h2{
+    height: 10px;
+
+}
+
+.details{
+    margin-top: 0px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+button{
+    margin-top: 15px;
+    background: #0075FF;
+    border-radius: 6.99346px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+}
+.button{
+    text-align: center;
+    align-items: center;
+    
+}
+
+input{
+    margin-top: 10px;
+    background: #EAF4FF;
+    border-radius: 6.99346px;
+    border: transparent;
+    height: 25px;
+    width: 98%;
+}
+
+.image{
+    width: 50%;
+    height: 423px;
+    margin-right: 10px;
+    position: relative;
+    padding-bottom: 7%;
+}
+.text{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: small;
+    
+}
+.line{
+    letter-spacing: 0px;
+}
+
+.connect_with{
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: smaller;
+
+}
+
+.loginoptions{
+    text-align: center;
+}
+.loginoptions img{
+    width: 27px;
+    height: 26px;padding-top: 6%;
+
+}
+
+.other{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: px;
+    
+    padding-bottom: 10%;
+    
+}
+.other div a{
+    text-decoration: none;
+}
+
+@media all and (max-width: 600px){
+    .image{
+        width: 0px;
+        height: 0px;
+    }
+    .container{
+        align-items: center;
+    }
+    .details{
+        margin-left: 20px;
+    }
+
+}
